@@ -1,0 +1,26 @@
+.header {
+  background-color: #3d4655;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbarr {
+  background-color: #3d4655;
+}
+
+.navright {
+  padding: 20px;
+}
+
+.navleft {
+  width: 120px;
+  height: 80px;
+}
+
+.footerr {
+  background-color: #3d4655;
+}
+
+/*# sourceMappingURL=job.css.map */
