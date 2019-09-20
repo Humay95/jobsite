@@ -15,12 +15,14 @@
 }
 
 .navleft {
-  width: 120px;
-  height: 80px;
+  width: 150px;
+  height: 100px;
 }
 
 .footerr {
   background-color: #3d4655;
+  width: 100%;
+  height: 450px;
 }
 
 /*# sourceMappingURL=job.css.map */
