@@ -1,28 +1,154 @@
+/*
+=============================
+Header
+=============================
+*/
+a {
+  color: whitesmoke !important; }
+
 .header {
   background-color: #3d4655;
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
-}
+  z-index: 1000; }
 
 .navbarr {
-  background-color: #3d4655;
-}
+  background-color: #3d4655; }
 
 .navright {
-  padding: 20px;
-}
+  padding: 20px; }
 
 .navleft {
   width: 150px;
-  height: 100px;
-}
+  height: 100px; }
 
+.bg-light {
+  background-color: #3d4655; }
+
+.buttonsearch {
+  color: #ffb400 !important;
+  border-color: #ffb400 !important; }
+
+/*
+=============================
+End of the Header
+=============================
+*/
+/*
+=============================
+Category
+=============================
+*/
+.section-category {
+  margin-bottom: 40px; }
+
+.category {
+  border-style: solid;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  min-height: 220px; }
+
+.category-icon:hover {
+  color: #ffb400;
+  text-decoration: none; }
+
+.category i {
+  font-size: 40px;
+  color: #3d4655;
+  width: auto;
+  height: auto; }
+
+.category p {
+  margin-top: 80px;
+  font-size: 20px;
+  color: #3d4655;
+  margin: 30px 40px;
+  width: auto;
+  transition: 0.6s cubic-bezier(0.45, 0.01, 0.1, 1.49); }
+
+.category a {
+  text-decoration: none; }
+
+.category a:hover {
+  color: #ffb400;
+  text-decoration: none; }
+
+/*
+=============================
+End of the Category
+=============================
+*/
+.newjob {
+  height: 280px;
+  width: 100%;
+  background-image: url(../images/fon.jpg);
+  background-attachment: fixed;
+  position: relative; }
+
+.newjob-text {
+  position: absolute;
+  background-color: #e4d89d82;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.newjob span {
+  color: red; }
+
+/*
+=============================
+Footer
+=============================
+*/
 .footerr {
   background-color: #3d4655;
   width: 100%;
   height: 450px;
-}
+  color: white;
+  font-family: Montserrat,sans-serif; }
+
+textarea {
+  width: 178px; }
+
+.icon {
+  display: flex;
+  padding: 0;
+  margin: 0; }
+
+.icon li {
+  list-style: none;
+  padding: 0 10px; }
+
+.inputt input {
+  margin-bottom: 10px; }
+
+.button {
+  display: block; }
+
+.button:hover {
+  background-color: #14831a;
+  border-color: #10c110; }
+
+.footer-title {
+  color: #ffb400; }
+
+.link-color {
+  color: azure; }
+
+.link-color:hover {
+  color: #ffb400;
+  text-decoration: none; }
+
+/*
+=============================
+End of the Footer
+=============================
+*/
 
 /*# sourceMappingURL=job.css.map */
